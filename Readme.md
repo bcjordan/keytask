@@ -1,145 +1,25 @@
-Creating a Jekyll App on Heroku Cedar (from GitHub)
-===
+# Objective
+The goal of this project is to construct [a model](/keyboard.nnsim) (built using nnsim)
+which accurately explains and predicts aspects of typing skill acquisition.<br>
 
-Setup Jekyll
----
+# Summary
+This project consists of: (1) building and using a platform to collect test data of
+keyboard skill acquisition, (2) constructing a model of the keyboard learning process,
+(3) tuning model parameters to fit data and assessing their accuracy in modeling differing tasks, 
+and (4) using observations about model behavior to assess current keyboard learning methodologies.
 
-The first thing you have to do is install the jekyll gem.
+# Model demonstration
+This project has two key deliverables: the keyboarding task test platform and the keyboarding model.
 
-    gem install jekyll
+The keyboarding task platform will be a web-based tool which displays a sequence of symbols, collects
+user key press responses, and (optionally) presents the user with keying accuracy feedback. This will
+be constructed using an HTML5/Javascript front-end task communicating results to a remote database via AJAX. The 
+advantage of this approach is that tasks can be completed remotely on any computing platform by many
+users simultaneously.
 
-Clone the git repository
----
-
-    git clone git@github.com:markpundsack/jekyll-heroku.git
-    cd jekyll-heroku
-    
-Let's test it locally
----
-
-    jekyll --server --auto
-
-Open your browser and go to http://localhost:4000.
-
-You should see "Hello World".
-
-Deploying to Heroku
----
-
-Install the Heroku gem
-
-    gem install heroku
-
-Create a Heroku app
-
-    heroku create --stack cedar
-
-Deploy!
-
-    git push heroku master
-
-Test it:
-
-    heroku open
-
-Creating a Jekyll App on Heroku Cedar (Manually)
-=== 
-
-Setup Jekyll
----
-
-The first thing you have to do is install the jekyll gem.
-
-    gem install jekyll
-
-Create the site structure
----
-
-Create the app directory
-
-    mkdir jekyll-app
-
-and create the following files:
-
-    cd jekyll-app
-    touch _config.yml
-    touch index.html
-    mkdir _posts
-    mkdir _layouts
-    touch _layouts/default.html
-
-"Hello World" Jekyll
----
-
-Let's create a Layout. Open _layouts/default.html and add:
-
-    <html>
-    <body>
-      {{ content }}
-    </body>
-    </html>
-
-Now we need an index page. Open index.html and add:
-
-    ---
-    layout: default
-    title: Jekyll Example Site
-    ---
-
-    <h1>Hello World</h1>
-
-Let's test it locally:
-
-    jekyll --server --auto
-
-Open your browser and go to http://localhost:4000
-
-You should see "Hello World"
-
-Deploying to Heroku
----
-
-First, install the Heroku gem
-
-    gem install heroku
-
-Create a Gemfile and add:
-
-    source :rubygems
-    
-    gem 'RedCloth'
-    gem 'jekyll'
-
-Create the Gemfile.lock
-
-    bundle install
-
-Create a Procfile
-
-    echo "web:	jekyll --server $PORT" > Procfile
-
-Exclude all of those files
-
-    echo "exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]" >> _config.yml
-
-Since Cedar will run Jekyll and generate the _site files automatically, they don't need to be check into git
-    
-    echo _site >> .gitignore
-    
-Create a git repo and commit
-
-    git init .
-    git add .
-    git commit
-
-Create a Heroku app
-
-    heroku create --stack cedar
-
-Deploy!
-
-    git push heroku master
-
-Test it:
-
-    heroku open
+The initial keyboarding model will be constructed using the NNSim framework. NNSim will be used to play with
+different neural network topologies, update rules and functionally important model parameters. The behavior
+of this model will be tuned with intuition about key learning behavior. Time permitting, a version of the
+model may be constructed which can interact with the keyboarding task platform, modeling the
+test subject's current knowledge state in real time. Depending on the flexibility and update rule required by the model,
+pre-built neural network packages such as <a href="http://harthur.github.com/brain/">brain.js</a> may be used.
