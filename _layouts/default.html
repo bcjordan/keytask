@@ -11,8 +11,11 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    <script src="{{page.script}}"></script>
+    <!-- Use Google CDN's JQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+
+
+    <!-- styles -->
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
@@ -91,7 +94,7 @@
           {%if page.log %}
           <div class="span4">
             <h3>Log:</h3>
-            <div id="{{ page.log }}">This is log.</div>
+            <div id="{{ page.log }}"> </div>
           </div>
           {% endif %}
         </div>
@@ -102,6 +105,8 @@
       </footer>
 
     </div> <!-- /container -->
-
+    
+    <!-- Include custom page JS -->
+    <script src="{{page.script}}"></script>
   </body>
 </html>
