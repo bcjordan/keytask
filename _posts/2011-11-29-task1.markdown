@@ -1,0 +1,11 @@
+---
+layout: default
+title: Letter Task
+permalink: /tasks/1.html
+script: /js/1.js
+log: log
+---
+
+Welcome to task 1.
+
+<div id="canvas" class="span10">This is canvas.</div>

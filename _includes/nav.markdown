@@ -1,0 +1,1 @@
+{% for post in site.posts %}[{{post.title}}]({{post.url}}) - {% endfor %} [150CM](http://www.cs.tufts.edu/comp/150CM/syllabus.html)
