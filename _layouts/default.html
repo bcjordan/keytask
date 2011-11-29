@@ -88,7 +88,7 @@
           <h1>{{page.title}} <small>{{page.description}}</small></h1>
         </div>
         <div class="row">
-          <div class="span10">
+          <div class="{% if page.log %}span10{% else %}span14{%endif%}">
             {{content}}
           </div>
           {%if page.log %}
