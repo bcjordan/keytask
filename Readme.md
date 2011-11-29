@@ -1,5 +1,5 @@
 # Objective
-The goal of this project is to construct [a model](/keyboard.nnsim) (built using nnsim)
+The goal of this project **in progress** is to construct [a model](http://github.com/bcjordan/keytask/blob/master/keyboard.nnsim) (built using nnsim)
 which accurately explains and predicts aspects of typing skill acquisition.<br>
 
 # Summary
@@ -21,5 +21,4 @@ The initial keyboarding model will be constructed using the NNSim framework. NNS
 different neural network topologies, update rules and functionally important model parameters. The behavior
 of this model will be tuned with intuition about key learning behavior. Time permitting, a version of the
 model may be constructed which can interact with the keyboarding task platform, modeling the
-test subject's current knowledge state in real time. Depending on the flexibility and update rule required by the model,
-pre-built neural network packages such as <a href="http://harthur.github.com/brain/">brain.js</a> may be used.
+test subject's current knowledge state in real time. Depending on the flexibility and update rule required by the model, pre-built neural network packages such as <a href="http://harthur.github.com/brain/">brain.js</a> may be used.
