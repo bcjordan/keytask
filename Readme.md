@@ -1,6 +1,8 @@
 # Objective
 The goal of this project **in progress** is to construct [a model](http://github.com/bcjordan/keytask/blob/master/keyboard.nnsim) (built using nnsim)
-which accurately explains and predicts aspects of typing skill acquisition.<br>
+which accurately explains and predicts aspects of typing skill acquisition.
+
+As part of this project, a [keyboarding task platform](http://kbtask.herokuapp.com) is being built and deployed.
 
 # Summary
 This project consists of: (1) building and using a platform to collect test data of
