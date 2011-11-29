@@ -1,0 +1,309 @@
+label 301 61 java.awt.Color[r=0,g=0,b=0] Verdana 12 T
+label 354 63 java.awt.Color[r=0,g=0,b=0] Verdana 12 Y
+label 397 65 java.awt.Color[r=0,g=0,b=0] Verdana 12 U
+label 450 63 java.awt.Color[r=0,g=0,b=0] Verdana 12 I
+label 491 63 java.awt.Color[r=0,g=0,b=0] Verdana 12 O
+label 546 65 java.awt.Color[r=0,g=0,b=0] Verdana 12 P
+label 251 62 java.awt.Color[r=0,g=0,b=0] Verdana 12 R
+label 204 64 java.awt.Color[r=0,g=0,b=0] Verdana 12 E
+label 147 66 java.awt.Color[r=0,g=0,b=0] Verdana 12 W
+label 96 66 java.awt.Color[r=0,g=0,b=0] Verdana 12 Q
+label 250 14 java.awt.Color[r=0,g=0,b=0] Verdana 12 Letter Display on Screen
+label 305 337 java.awt.Color[r=0,g=0,b=0] Verdana 12 T
+label 358 339 java.awt.Color[r=0,g=0,b=0] Verdana 12 Y
+label 401 341 java.awt.Color[r=0,g=0,b=0] Verdana 12 U
+label 454 339 java.awt.Color[r=0,g=0,b=0] Verdana 12 I
+label 495 339 java.awt.Color[r=0,g=0,b=0] Verdana 12 O
+label 550 341 java.awt.Color[r=0,g=0,b=0] Verdana 12 P
+label 255 338 java.awt.Color[r=0,g=0,b=0] Verdana 12 R
+label 208 340 java.awt.Color[r=0,g=0,b=0] Verdana 12 E
+label 151 342 java.awt.Color[r=0,g=0,b=0] Verdana 12 W
+label 100 342 java.awt.Color[r=0,g=0,b=0] Verdana 12 Q
+label 246 372 java.awt.Color[r=0,g=0,b=0] Verdana 12 Letter Pressed on Keyboard
+label 601 187 java.awt.Color[r=0,g=0,b=0] Verdana 12 <--- Should these be grouped?
+unit nnsim.units.IAC 90 49 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 135 50 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 193 46 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 238 44 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 292 41 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 343 44 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 389 43 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 438 45 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 490 43 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 538 44 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 94 325 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 139 326 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 197 322 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 242 320 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 296 317 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 347 320 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 393 319 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 442 321 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 494 319 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 542 320 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 89 192 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 134 193 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 192 189 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 237 187 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 291 184 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 342 187 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 388 186 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 437 188 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 489 186 0.0 0.0 -0.2 1.0 -0.1 0.1
+unit nnsim.units.IAC 537 187 0.0 0.0 -0.2 1.0 -0.1 0.1
+weight 0.0 0 20 false true
+weight 0.0 1 20 false true
+weight 0.0 2 20 false true
+weight 0.0 3 20 false true
+weight 0.0 4 20 false true
+weight 0.0 5 20 false true
+weight 0.0 6 20 false true
+weight 0.0 7 20 false true
+weight 0.0 8 20 false true
+weight 0.0 9 20 false true
+weight 0.0 0 21 false true
+weight 0.0 1 21 false true
+weight 0.0 2 21 false true
+weight 0.0 3 21 false true
+weight 0.0 4 21 false true
+weight 0.0 5 21 false true
+weight 0.0 6 21 false true
+weight 0.0 7 21 false true
+weight 0.0 8 21 false true
+weight 0.0 9 21 false true
+weight 0.0 0 22 false true
+weight 0.0 1 22 false true
+weight 0.0 2 22 false true
+weight 0.0 3 22 false true
+weight 0.0 4 22 false true
+weight 0.0 5 22 false true
+weight 0.0 6 22 false true
+weight 0.0 7 22 false true
+weight 0.0 8 22 false true
+weight 0.0 9 22 false true
+weight 0.0 0 23 false true
+weight 0.0 1 23 false true
+weight 0.0 2 23 false true
+weight 0.0 3 23 false true
+weight 0.0 4 23 false true
+weight 0.0 5 23 false true
+weight 0.0 6 23 false true
+weight 0.0 7 23 false true
+weight 0.0 8 23 false true
+weight 0.0 9 23 false true
+weight 0.0 0 24 false true
+weight 0.0 1 24 false true
+weight 0.0 2 24 false true
+weight 0.0 3 24 false true
+weight 0.0 4 24 false true
+weight 0.0 5 24 false true
+weight 0.0 6 24 false true
+weight 0.0 7 24 false true
+weight 0.0 8 24 false true
+weight 0.0 9 24 false true
+weight 0.0 0 25 false true
+weight 0.0 1 25 false true
+weight 0.0 2 25 false true
+weight 0.0 3 25 false true
+weight 0.0 4 25 false true
+weight 0.0 5 25 false true
+weight 0.0 6 25 false true
+weight 0.0 7 25 false true
+weight 0.0 8 25 false true
+weight 0.0 9 25 false true
+weight 0.0 0 26 false true
+weight 0.0 1 26 false true
+weight 0.0 2 26 false true
+weight 0.0 3 26 false true
+weight 0.0 4 26 false true
+weight 0.0 5 26 false true
+weight 0.0 6 26 false true
+weight 0.0 7 26 false true
+weight 0.0 8 26 false true
+weight 0.0 9 26 false true
+weight 0.0 0 27 false true
+weight 0.0 1 27 false true
+weight 0.0 2 27 false true
+weight 0.0 3 27 false true
+weight 0.0 4 27 false true
+weight 0.0 5 27 false true
+weight 0.0 6 27 false true
+weight 0.0 7 27 false true
+weight 0.0 8 27 false true
+weight 0.0 9 27 false true
+weight 0.0 0 28 false true
+weight 0.0 1 28 false true
+weight 0.0 2 28 false true
+weight 0.0 3 28 false true
+weight 0.0 4 28 false true
+weight 0.0 5 28 false true
+weight 0.0 6 28 false true
+weight 0.0 7 28 false true
+weight 0.0 8 28 false true
+weight 0.0 9 28 false true
+weight 0.0 0 29 false true
+weight 0.0 1 29 false true
+weight 0.0 2 29 false true
+weight 0.0 3 29 false true
+weight 0.0 4 29 false true
+weight 0.0 5 29 false true
+weight 0.0 6 29 false true
+weight 0.0 7 29 false true
+weight 0.0 8 29 false true
+weight 0.0 9 29 false true
+weight 0.0 20 11 false true
+weight 0.0 21 11 false true
+weight 0.0 22 11 false true
+weight 0.0 23 11 false true
+weight 0.0 24 11 false true
+weight 0.0 25 11 false true
+weight 0.0 26 11 false true
+weight 0.0 27 11 false true
+weight 0.0 28 11 false true
+weight 0.0 29 11 false true
+weight 0.0 20 12 false true
+weight 0.0 20 13 false true
+weight 0.0 20 14 false true
+weight 0.0 20 15 false true
+weight 0.0 20 17 false true
+weight 0.0 20 18 false true
+weight 0.0 20 19 false true
+weight 0.0 21 12 false true
+weight 0.0 21 13 false true
+weight 0.0 21 15 false true
+weight 0.0 21 16 false true
+weight 0.0 21 17 false true
+weight 0.0 21 19 false true
+weight 0.0 22 12 false true
+weight 0.0 22 13 false true
+weight 0.0 22 14 false true
+weight 0.0 22 15 false true
+weight 0.0 22 16 false true
+weight 0.0 22 18 false true
+weight 0.0 22 19 false true
+weight 0.0 23 12 false true
+weight 0.0 23 13 false true
+weight 0.0 23 14 false true
+weight 0.0 23 15 false true
+weight 0.0 23 16 false true
+weight 0.0 23 17 false true
+weight 0.0 23 18 false true
+weight 0.0 23 19 false true
+weight 0.0 24 12 false true
+weight 0.0 24 13 false true
+weight 0.0 24 14 false true
+weight 0.0 24 15 false true
+weight 0.0 24 16 false true
+weight 0.0 24 17 false true
+weight 0.0 24 18 false true
+weight 0.0 25 12 false true
+weight 0.0 25 13 false true
+weight 0.0 25 14 false true
+weight 0.0 25 15 false true
+weight 0.0 25 17 false true
+weight 0.0 25 18 false true
+weight 0.0 25 19 false true
+weight 0.0 26 12 false true
+weight 0.0 26 13 false true
+weight 0.0 26 14 false true
+weight 0.0 26 15 false true
+weight 0.0 26 16 false true
+weight 0.0 26 17 false true
+weight 0.0 26 18 false true
+weight 0.0 26 19 false true
+weight 0.0 27 12 false true
+weight 0.0 27 13 false true
+weight 0.0 27 14 false true
+weight 0.0 27 15 false true
+weight 0.0 27 16 false true
+weight 0.0 27 17 false true
+weight 0.0 27 18 false true
+weight 0.0 27 19 false true
+weight 0.0 28 12 false true
+weight 0.0 28 13 false true
+weight 0.0 28 14 false true
+weight 0.0 28 15 false true
+weight 0.0 28 16 false true
+weight 0.0 28 17 false true
+weight 0.0 28 18 false true
+weight 0.0 28 19 false true
+weight 0.0 29 12 false true
+weight 0.0 29 13 false true
+weight 0.0 29 14 false true
+weight 0.0 29 15 false true
+weight 0.0 29 16 false true
+weight 0.0 29 17 false true
+weight 0.0 29 18 false true
+weight 0.0 29 19 false true
+weight 0.0 20 10 false true
+weight 0.0 20 16 false true
+weight 0.0 21 10 false true
+weight 0.0 21 14 false true
+weight 0.0 21 18 false true
+weight 0.0 22 10 false true
+weight 0.0 22 17 false true
+weight 0.0 23 10 false true
+weight 0.0 24 10 false true
+weight 0.0 24 19 false true
+weight 0.0 25 10 false true
+weight 0.0 25 16 false true
+weight 0.0 26 10 false true
+weight 0.0 27 10 false true
+weight 0.0 28 10 false true
+weight 0.0 29 10 false true
+Start Group 20 -1
+unit 0
+unit 1
+unit 2
+unit 3
+unit 4
+unit 5
+unit 6
+unit 7
+unit 8
+unit 9
+label 0
+label 1
+label 2
+label 3
+label 4
+label 5
+label 6
+label 7
+label 8
+label 9
+end
+Start Group 20 -1
+unit 10
+unit 11
+unit 12
+unit 13
+unit 14
+unit 15
+unit 16
+unit 17
+unit 18
+unit 19
+label 11
+label 12
+label 13
+label 14
+label 15
+label 16
+label 17
+label 18
+label 19
+label 20
+end
+Start Group 10 -1
+unit 20
+unit 21
+unit 22
+unit 23
+unit 24
+unit 25
+unit 26
+unit 27
+unit 28
+unit 29
+end

@@ -4,7 +4,7 @@ title: Project Description
 permalink: /index.html
 ---
 <h4>Objective:</h4>
-The goal of this project is to construct a model 
+The goal of this project is to construct [a model](/keyboard.nnsim)
 which accurately explains and predicts aspects of typing skill acquisition.<br>
 <h4>Summary:</h4>
 This project consists of: (1) building and using a platform to collect test data of
@@ -59,5 +59,5 @@ collection for varying tasks. Model being tweaked as task data comes in.
 make predictions about keyboard learning. Begin building version
 of model suitable for integration with keyboarding task platform.</dd>
 
-<dt>12/06:</dt><dd>Perform experiments with task platform, further assess model. Prepare presentation.</dd>
+<dt>12/06:</dt><dd>Perform experiments with task platform, further assess model. Prepare presentation.w</dd>
 </dl>
