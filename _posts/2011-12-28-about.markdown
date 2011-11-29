@@ -1,7 +1,63 @@
 ---
 layout: default
 title: Project Description
-permalink: /description.html
+permalink: /index.html
 ---
+<h4>Objective:</h4>
+The goal of this project is to construct a model 
+which accurately explains and predicts aspects of typing skill acquisition.<br>
+<h4>Summary:</h4>
+This project consists of: (1) building and using a platform to collect test data of
+keyboard skill acquisition, (2) constructing a model of the keyboard learning process,
+(3) tuning model parameters to fit data and assessing their accuracy in modeling differing tasks, 
+and (4) using observations about model behavior to assess current keyboard learning methodologies.
+<br>
+<h4>Model demonstration:</h4>
+This project has two key deliverables: the keyboarding task test platform and the keyboarding model.
 
-This project... 
+The keyboarding task platform will be a web-based tool which displays a sequence of symbols, collects
+user key press responses, and (optionally) presents the user with keying accuracy feedback. This will
+be constructed using an HTML5/Javascript front-end task communicating results to a remote database via AJAX. The 
+advantage of this approach is that tasks can be completed remotely on any computing platform by many
+users simultaneously.
+
+The initial keyboarding model will be constructed using the NNSim framework. NNSim will be used to play with
+different neural network topologies, update rules and functionally important model parameters. The behavior
+of this model will be tuned with intuition about key learning behavior. Time permitting, a version of the
+model may be constructed which can interact with the keyboarding task platform, modeling the
+test subject's current knowledge state in real time. Depending on the flexibility and update rule required by the model,
+pre-built neural network packages such as <a href="http://harthur.github.com/brain/">brain.js</a> may be used.
+
+<h4>Relevant literature:</h4>
+<ul>
+  <li><a href="http://aaai.org/AITopics/IntelligentTutoringSystems">AIII overview of intelligent tutors</a></li>
+  <li><a href="http://books.google.com/books?id=VZMAAAAAMAAJ">The Psychology of Skill, with Special Reference to its Acquisition in Typewriting (1908)</a></li>
+  <li><a href="http://harthur.github.com/brain/">Brain.js, neural network platform</a></li>
+</ul>
+<h4>Milestones:</h4>
+<dl>
+<dt>11/01:</dt>
+<dd>Client-side portion of keyboarding task able to prompt and 
+record key-presses (timing and key). At least one attempt at model 
+constructed. <span class="update">Update: Simple model laid out using NNSIM, investigation into client-side task framework begun.</span></dd>
+
+<dt>11/08:</dt>
+<dd>Server-side portion of keyboarding task built, able to 
+collect task data. NNSim model complete and some experimentation has 
+been performed with it.
+<span class="update">Update: Still working on client-side portion of task framework, now displaying stimuli, collecting keystrokes and timings.</span></dd>
+
+<dt>11/15:</dt><dd>Keyboarding task platform maturing, begin rounds of data 
+collection for varying tasks. Model being tweaked as task data comes in.
+
+<span class="update">Update: Began working on server-side of task, tweaking task. Experimenting with NNSIM training functionality and using grouped IAC units. Possibly meeting next week for help training in NNSIM.</span></dd>
+
+<dt>11/22:</dt><dd>New tasks conceived of and completed. Model being tweaked to accommodate different task results.
+<span class="update">Update: Found <a href="http://www-personal.umich.edu/~yililiu/Wu-Liu-TOCHI-typing-2008.pdf">useful paper</a></span></dd>
+
+<dt>11/29:</dt><dd>Model performance assessed, begin experimenting with model to
+make predictions about keyboard learning. Begin building version
+of model suitable for integration with keyboarding task platform.</dd>
+
+<dt>12/06:</dt><dd>Perform experiments with task platform, further assess model. Prepare presentation.</dd>
+</dl>
