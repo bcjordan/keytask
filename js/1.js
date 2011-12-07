@@ -1,13 +1,13 @@
 var a = 5;
-
+var currChar;
 function newPrompt(){
 	// Immediately generate, display, and log new prompt
 	var newNumber = 65 + Math.floor(Math.random()*25);
-	var newChar   =  String.fromCharCode(newNumber);
+	currChar      =  String.fromCharCode(newNumber);
 	
-	$('#prompt').text(newChar);
+	$('#prompt').text(currChar);
 	
-	$('#log').append('<br/>' + +new Date() + ", prompt, " + newChar);
+	$('#log').prepend('<div class="alert-message">' + +new Date() + ", prompt, " + currChar + "</div>");
 }
 
 $('#input').keypress(
@@ -15,7 +15,9 @@ $('#input').keypress(
 				// Log key press
         console.log(e.timeStamp);
         console.log(e.keyCode);
-				$('#log').append('<br/>' + e.timeStamp + ", press, " + e.keyCode);
+				var pressed = String.fromCharCode(e.keyCode).toUpperCase();
+				var correctness = (currChar == pressed) ? "success" : "error"
+				$('#log').prepend('<div class="alert-message '+ correctness +'">' + e.timeStamp + ", press, " + pressed + "</div>");
 				
 				newPrompt();
     }
@@ -29,8 +31,8 @@ $('#input').keyup(
 
 $('#input').click(
 	function(e) {
-		$('#input').val('');
-		// Initiate task
-		newPrompt();
+		if(!currChar) {
+			$('#input').val('Press Spacebar to begin.');
+		}
 	}
 );
