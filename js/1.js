@@ -15,7 +15,7 @@ $('#input').keypress(
 				// Log key press
         console.log(e.timeStamp);
         console.log(e.keyCode);
-				var pressed = String.fromCharCode(e.keyCode).toUpperCase();
+				var pressed = String.fromCharCode(e.keyCode || e.which).toUpperCase();
 				var correctness = (currChar == pressed) ? "success" : "error"
 				$('#log').prepend('<div class="alert-message log-entry '+ correctness +'">' + e.timeStamp + ", press, " + pressed + "</div>");
 				
