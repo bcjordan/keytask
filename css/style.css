@@ -3,5 +3,4 @@
 #prompt{font-size: 65px; line-height: 36px; font-weight: bold; color: #404040; margin: 0px auto; text-align: center;;}
 #input{margin: 0px auto; margin-top: 30px; text-align: center;}
 .update{color: green; font-weight: bold}
-.correct{background-color: green;}
-.incorrect{background-color: red;}
+.log-entry{margin-bottom: 0px ! important}

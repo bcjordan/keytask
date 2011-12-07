@@ -7,7 +7,7 @@ function newPrompt(){
 	
 	$('#prompt').text(currChar);
 	
-	$('#log').prepend('<div class="alert-message">' + +new Date() + ", prompt, " + currChar + "</div>");
+	$('#log').prepend('<div class="alert-message log-entry ">' + +new Date() + ", prompt, " + currChar + "</div>");
 }
 
 $('#input').keypress(
@@ -17,7 +17,7 @@ $('#input').keypress(
         console.log(e.keyCode);
 				var pressed = String.fromCharCode(e.keyCode).toUpperCase();
 				var correctness = (currChar == pressed) ? "success" : "error"
-				$('#log').prepend('<div class="alert-message '+ correctness +'">' + e.timeStamp + ", press, " + pressed + "</div>");
+				$('#log').prepend('<div class="alert-message log-entry '+ correctness +'">' + e.timeStamp + ", press, " + pressed + "</div>");
 				
 				newPrompt();
     }
