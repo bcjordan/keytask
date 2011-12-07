@@ -10,7 +10,7 @@ function newPrompt(){
 	$('#log').append('<br/>' + +new Date() + ", prompt, " + newChar);
 }
 
-$('#input').keydown(
+$('#input').keypress(
     function(e) {
 				// Log key press
         console.log(e.timeStamp);
