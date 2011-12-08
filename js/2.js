@@ -6,11 +6,11 @@ var charting = true;
 // Chart variable should be "chart". chart.series[0] is green and chart.series[1] is red
 // Add a point to them with chart.series[0].addPoint(5,3)
 
-var currChars = [0,0];
+var currChars = [];
 var currStart;
 var loadTime = +new Date();
 var keyPresses = new Array();
-var firstPress = ''; // First keypress in a pair
+var firstPress = null; // First keypress in a pair
 
 function newPrompt(){
 	// Immediately generate, display, and log new prompt
@@ -42,7 +42,7 @@ $('#input').keypress(
 					
 					if(charting){
 						chart.series[correct_chart].addPoint({x: (currStart - loadTime), y: delay, name: currChars[0] + currChars[1] + " -> " + firstPress + pressed})
-					}
+					}					
 				} else {
 					firstPress = pressed;
 					noPrompt = true;
@@ -52,8 +52,10 @@ $('#input').keypress(
 				var correct_class = correct ? "success" : "error"
 
 				// Record keypress in data array and log
-				keyPresses.push({key: pressed, prompt: currChars[0] + currChars[1], correct: correct,
-								         start: currStart, end: e.timeStamp, delay: delay});
+				if(currChars){
+					keyPresses.push({key: pressed, prompt: currChars[0] + currChars[1], correct: correct,
+									         start: currStart, end: e.timeStamp, delay: delay});
+				}
 
 				$('#log').prepend('<div class="alert-message log-entry '+ correct_class +'">' + e.timeStamp + ", press, " + pressed + "</div>");
 				if(!noPrompt){
@@ -70,8 +72,8 @@ $('#input').keyup(
 
 $('#input').click(
 	function(e) {
-		if(currChars === [0,0]) {
-			$('#input').val('Press Spacebar to begin.');
+		if(true) {
+			$('#input').val('Press Spacebar twice to begin.');
 		}
 	}
 );
