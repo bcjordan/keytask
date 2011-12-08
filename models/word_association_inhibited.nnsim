@@ -1,0 +1,56 @@
+label 419 439 java.awt.Color[r=0,g=0,b=0] Verdana 12 Letter on Screen
+label 472 708 java.awt.Color[r=0,g=0,b=0] Verdana 12 Letter
+label 474 946 java.awt.Color[r=0,g=0,b=0] Verdana 12 Keypress
+label 1434 574 java.awt.Color[r=0,g=0,b=0] Verdana 12 Dog
+unit nnsim.units.IAC 782 434 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 800 707 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 802 944 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 994 434 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 1004 703 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 996 944 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 1168 432 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 1186 703 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 1182 946 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 578 438 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 602 707 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 606 944 0.0 0.0 -0.2 1.0 -0.1 0.0010
+unit nnsim.units.IAC 1437 608 0.0 0.0 -0.2 1.0 -0.1 0.01
+weight 0.0025 0 1 false true
+weight 0.03 1 2 false true
+weight 0.0 0 4 false true
+weight 0.0 0 7 false true
+weight 0.0 0 10 false true
+weight 0.0 3 1 false true
+weight 0.0025 3 4 false true
+weight 0.0 3 7 false true
+weight 0.0 3 10 false true
+weight 0.0 6 1 false true
+weight 0.0 6 4 false true
+weight 0.0025 6 7 false true
+weight 0.0 6 10 false true
+weight 0.0 9 1 false true
+weight 0.0 9 4 false true
+weight 0.0 9 7 false true
+weight 0.0025 9 10 false true
+weight 0.0 1 5 false true
+weight 0.0 1 8 false true
+weight 0.0 1 11 false true
+weight 0.0 4 2 false true
+weight 0.03 4 5 false true
+weight 0.0 4 8 false true
+weight 0.0 4 11 false true
+weight 0.0 7 2 false true
+weight 0.0 7 5 false true
+weight 0.03 7 8 false true
+weight 0.0 7 11 false true
+weight 0.0 10 2 false true
+weight 0.0 10 5 false true
+weight 0.0 10 8 false true
+weight 0.03 10 11 false true
+weight 0.0025 6 12 false true
+weight 0.03 12 8 false true
+weight 0.0025 3 12 false true
+weight 0.0025 0 12 false true
+weight 0.03 12 5 false true
+weight 0.03 12 2 false true
+weight -0.5 9 12 false true

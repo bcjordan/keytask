@@ -4,7 +4,7 @@ title: Project Description
 permalink: /index.html
 ---
 <h4>Objective:</h4>
-The goal of this project is to construct [a model](/models/keyboard.nnsim) (built using nnsim)
+The goal of this project is to construct [a model](/models/word_association_inhibited.nnsim) (built using nnsim)
 which accurately explains and predicts aspects of typing skill acquisition.<br>
 <h4>Summary:</h4>
 This project consists of: (1) building and using a platform to collect test data of
