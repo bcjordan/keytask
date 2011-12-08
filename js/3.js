@@ -1051,7 +1051,7 @@ $('#input').keypress(
 				} else {
 
 					correct = currChars.indexOf(firstPresses) > -1
-					noPrompt = true;
+					noPrompt = correct;
 				}
 
 				var correct_class = correct ? "success" : "error"
