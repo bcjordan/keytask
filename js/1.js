@@ -1,6 +1,6 @@
 // Hide chart and log to start
-$('#chart').hide();
-$('#log').hide();
+// $('#chart').hide();
+// $('#log').hide();
 
 var charting = true;
 // Chart variable should be "chart". chart.series[0] is green and chart.series[1] is red
@@ -39,7 +39,7 @@ $('#input').keypress(
 				keyPresses.push({key: pressed, prompt: currChar, correct: correct,
 								         start: currStart, end: e.timeStamp, delay: delay});
 				if(charting){
-					chart.series[correct_chart].addPoint({x: (currStart - loadTime), y: delay, name: pressed})
+					chart.series[correct_chart].addPoint({x: (currStart - loadTime), y: delay, name: currChar + " -> " + pressed})
 				}
 				
 				newPrompt();
