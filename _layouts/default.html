@@ -12,8 +12,10 @@
     <![endif]-->
 
     <!-- Use Google CDN's JQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/highcharts/highcharts.js"></script>
+		<script type="text/javascript" src="/js/highcharts/modules/exporting.js"></script>
+		<script type="text/javascript" src="/js/chart.js"></script>
 
     <!-- styles -->
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -93,15 +95,17 @@
           </div>
           {%if page.log %}
           <div class="span4">
-            <h3>Log:</h3>
-            <div id="{{ page.log }}"> </div>
+            <h3>Tools: <a onclick="$('#chart').toggle()" href="#">chart</a> / 
+                       <a onclick="$('#{{page.log}}').toggle()" href="#">log</a>
+            </h3>
+          <div id="{{ page.log }}"> </div>
           </div>
           {% endif %}
         </div>
       </div>
 
       <footer>
-        <p>By Brian Jordan, 2011. <a href="http://github.com/bcjordan/keytask">Fork this on Github</a></p>
+        <p>By Brian Jordan, 2011. <a href="http://github.com/bcjordan/keytask">Fork this on Github</a></p>  
       </footer>
 
     </div> <!-- /container -->

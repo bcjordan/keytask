@@ -12,5 +12,7 @@ log: log
   </div>
   <br/>
   <input class="xlarge" id="input" name="input" size="30" type="text" value="Click to begin." />
+  <br/><br/>
+  <span id="chart"></span>
 </div>
 
