@@ -57,7 +57,7 @@ collection for varying tasks. Model being tweaked as task data comes in.
 
 <dt>11/29:</dt><dd>Model performance assessed, begin experimenting with model to
 make predictions about keyboard learning. Begin building version
-of model suitable for integration with keyboarding task platform.</dd>
+of model suitable for integration with keyboarding task platform.<span class="update">Completed.</span></dd>
 
-<dt>12/06:</dt><dd>Perform experiments with task platform, further assess model. Prepare presentation.w</dd>
+<dt>12/06:</dt><dd>Perform experiments with task platform, further assess model. Prepare presentation.<span class="update">Completed.</span></dd>
 </dl>
